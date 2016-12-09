@@ -1,6 +1,6 @@
-FROM mono:4.2
+FROM mono:4.6
 
-ENV NUGETORY_VERSION 0.1.12
+ENV NUGETORY_VERSION 0.1.13
 
 RUN nuget install nugetory -Version $NUGETORY_VERSION \
     -NonInteractive -ExcludeVersion \
